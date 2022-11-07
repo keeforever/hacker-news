@@ -17,8 +17,7 @@
   --spacing: 0.1rem;
   --radius: 0.25rem;
 
-  --max-width: 1247px;
-  --fixed-width: 620px;
+  --max-width: 1240px;
 }
 
 *,
@@ -28,13 +27,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-#root{
-  width: 100%;
-}
-body {
-  width: 100%;
-  background-color: var(--clr-white-1);
 
+body {
+  background-color: var(--clr-white-1);
   font-family: "Courier New", Courier, monospace;
 }
 
