@@ -4,7 +4,7 @@
 
 .search-form input {
   width: var(--fixed-width);
-  padding: 0.3rem 1rem;
+  padding-bottom: 0.3rem;
   outline: none;
   border: 0;
   border-bottom: 3px var(--clr-grey-3) solid;
