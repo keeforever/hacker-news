@@ -1,0 +1,31 @@
+.loader {
+  margin-top: 88px;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.spinner {
+  width: 20vmin;
+  height: 20vmin;
+
+  /* border: 3px solid var(--clr-grey-3); */
+  border: 3px solid var(--clr-grey-3);
+  border-left: 3px solid var(--clr-blue-1);
+
+  border-radius: 50%;
+  animation-name: spinner;
+  animation-duration: .7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

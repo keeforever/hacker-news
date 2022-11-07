@@ -1,0 +1,23 @@
+.search-form {
+  margin-bottom: 24px;
+}
+.search-form input {
+  width: var(--fixed-width);
+  padding: 16px;
+  outline: none;
+  border: 0;
+  border-bottom: 3px var(--clr-grey-3) solid;
+  background: transparent;
+
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--clr-grey-1);
+  letter-spacing: var(--spacing);
+}
+
+@media screen and (max-width: 720px) {
+  .search-form input {
+    width: 95vw;
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,31 @@
+.paginate-container{
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+}
+
+.paginate-btn{
+  padding: 8px;
+  border-radius: var(--radius);
+  background-color: var(--clr-blue-1);
+  
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--clr-primary-white);
+}
+
+.paginate-btn:active{
+  background-color: var(--clr-blue-1);
+  opacity: 0.5;
+}
+
+.paginate-btn:hover{
+  cursor: pointer;
+}
+
+.page-info{
+  font-size: 22px;
+  font-weight:700;
+  line-height: 2rem;
+  color: var(--clr-grey-1);
+}
