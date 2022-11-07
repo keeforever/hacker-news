@@ -12,6 +12,7 @@ const SearchForm = () => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.currentTarget.value)}
+        placeholder="Search..."
       />
     </div>
   );
